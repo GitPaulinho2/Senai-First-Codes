@@ -4,7 +4,7 @@ os.system("clear")
 
 
 print("""
-================== MENU DO LULA AH ALEXANDRE DE MORAES ===================
+================== MENU ===================
 
 Código    \tPrato   \t\tValor
 1 \t\tPicanha     \t\t R$25.00
@@ -15,28 +15,21 @@ Código    \tPrato   \t\tValor
 """)
 
 opcao = int(input("Digite a opção desejada: "))
-codigo = 1, 2, 3, 4, 5
-picanha = 25.00
-lasanha = 20.00
-strogonoff = 18.00
-bife = 15.00
-paocomovo = 5.00
-saldo = 25.00
 
-match codigo:
-    case"1":
+match opcao:
+    case 1:
       prato = "Picanha"
       valor = 25
-    case"2":
+    case 2:
       prato = "Lasanha"
       valor = 20
-    case"3":
+    case 3:
       prato = "Strogonoff"
       valor = 18
-    case"4":
+    case 4:
       prato = "Bife Acebolado"
       valor = 15
-    case"5":
+    case 5:
      prato = "Pão Com Ovo"
      valor = 5
     case _:
